@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17451179320"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-17451179320');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Panduan komplain ke Ajaib via media sosial. Cara mengirim keluhan melalui Twitter, Instagram, Facebook, dan saluran resmi lainnya." />
+  <meta name="keywords" content="komplain ajaib via twitter, keluhan ajaib di instagram, customer service ajaib medsos" />
+  <title>Cara Komplain ke Ajaib via Media Sosial</title>
+  <style>
+    :root {
+      --header-height: 70px;
+      --z-fixed: 100;
+      --primary-color: #1a56db;
+      --secondary-color: #111827;
+      --background-color: #f0f4ff;
+      --card-background: #fff;
+      --text-color: #000;
+      --light-blue: #dbeafe;
+      --spacing-sm: 20px;
+      --spacing-md: 40px;
+      --spacing-lg: 60px;
+      --border-radius: 8px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      padding-top: var(--header-height);
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: var(--spacing-sm);
+    }
+
+    section {
+      margin-top: var(--spacing-lg);
+      position: relative;
+    }
+
+    h1, h2, h3, h4, .section-title {
+      font-size: 1.2rem;
+      font-weight: normal;
+      color: #111;
+      margin: 0.5rem 0;
+      text-decoration: none;
+      background: none;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: var(--primary-color);
+    }
+
+    .section-title::after {
+      display: none;
+    }
+
+    .section-description {
+      text-align: center;
+      color: #4b5563;
+      margin-bottom: var(--spacing-md);
+      font-size: 1rem;
+    }
+
+    header {
+      text-align: center;
+      padding: var(--spacing-md) 0;
+    }
+
+    .hero-logo {
+      width: 200px;
+      height: auto;
+      margin-bottom: var(--spacing-md);
+    }
+
+    .hero-section {
+      padding: var(--spacing-lg) 0;
+      background-color: var(--background-color);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: var(--header-height);
+      background-color: var(--card-background);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      z-index: var(--z-fixed);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 var(--spacing-sm);
+    }
+
+    .nav__logo {
+      color: var(--primary-color);
+      font-weight: bold;
+      font-size: 1.2rem;
+      text-decoration: none;
+    }
+
+    .nav__button {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 8px 16px;
+      border-radius: var(--border-radius);
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .nav__button:hover {
+      background-color: #1544ad;
+    }
+
+    .contact-section,
+    .benefits-section,
+    .faq-section {
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
+      margin-right: calc(-50vw + 50%);
+      padding: var(--spacing-lg) 0;
+    }
+
+    .contact-section,
+    .faq-section {
+      background-color: #fff;
+    }
+
+    .benefits-section {
+      background-color: transparent;
+      padding: var(--spacing-lg) 0;
+    }
+
+    .benefits-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: var(--spacing-md);
+      background-color: #fff;
+      border-radius: var(--border-radius);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .contact-cards {
+      display: flex;
+      justify-content: center;
+      gap: var(--spacing-md);
+      margin-top: var(--spacing-sm);
+      flex-wrap: wrap;
+    }
+
+    .contact-card {
+      background: var(--card-background);
+      padding: var(--spacing-sm);
+      border-radius: var(--border-radius);
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .icon {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 15px;
+      color: var(--primary-color);
+    }
+
+    .contact-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .contact-number {
+      font-size: 1.2rem;
+      color: var(--primary-color);
+      font-weight: bold;
+    }
+
+    .benefits {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: var(--spacing-sm);
+      flex-wrap: wrap;
+    }
+
+    .benefit-card {
+      width: 300px;
+      text-align: center;
+      padding: var(--spacing-md);
+      transition: transform 0.3s ease;
+      background: var(--card-background);
+      border-radius: var(--border-radius);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .benefit-card:hover {
+      transform: scale(1.05);
+    }
+
+    .faq-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      margin-bottom: var(--spacing-sm);
+      border: 1px solid #e5e7eb;
+      border-radius: var(--border-radius);
+      overflow: hidden;
+    }
+
+    .faq-question {
+      background: var(--card-background);
+      padding: 15px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--primary-color);
+      font-weight: bold;
+    }
+
+    .faq-question::after {
+      content: '+';
+      font-size: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .faq-question.active::after {
+      transform: rotate(45deg);
+    }
+
+    .faq-answer {
+      padding: 0 15px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease, padding 0.3s ease;
+    }
+
+    .faq-answer.active {
+      padding: 15px;
+      max-height: 500px;
+    }
+
+    .cta-section {
+      background: var(--light-blue);
+      padding: var(--spacing-md);
+      border-radius: var(--border-radius);
+      text-align: center;
+      margin: var(--spacing-md) 0;
+    }
+
+    .cta-contact-info {
+      margin-top: var(--spacing-md);
+      padding: var(--spacing-sm);
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: var(--border-radius);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-buttons {
+      display: flex;
+      gap: var(--spacing-sm);
+      justify-content: center;
+      margin-top: var(--spacing-sm);
+      flex-wrap: wrap;
+    }
+
+    .contact-button {
+      display: flex;
+      align-items: center;
+      padding: 12px 24px;
+      border-radius: var(--border-radius);
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: transform 0.3s ease;
+      animation: pulse 2s infinite;
+    }
+
+    .contact-button:hover {
+      transform: translateY(-3px);
+      animation: none;
+    }
+
+    .phone-button {
+      background: linear-gradient(135deg, #1a56db, #1544ad);
+    }
+
+    .whatsapp-button {
+      background: linear-gradient(135deg, #25D366, #128C7E);
+    }
+
+    .button-icon {
+      margin-right: 8px;
+      font-size: 1.2em;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+
+    .footer {
+      background-color: #131c2b;
+      color: #d1d5db;
+      padding: 40px 20px;
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
+      margin-right: calc(-50vw + 50%);
+      margin-top: var(--spacing-lg);
+    }
+
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .footer-column {
+      flex: 1 1 300px;
+      margin: 10px;
+    }
+
+    .footer-column h4 {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #f9fafb;
+      margin-bottom: 15px;
+    }
+
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-column ul li {
+      margin-bottom: 8px;
+    }
+
+    .footer-divider {
+      border: none;
+      border-top: 1px solid #374151;
+      margin: 30px 0;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #9ca3af;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 768px) {
+      .contact-cards, .benefits {
+        flex-direction: column;
+        align-items: center;
+      }
+      .contact-card, .benefit-card {
+        width: 100%;
+        max-width: 300px;
+      }
+      .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="nav" id="main-navigation">
+    <a href="#beranda" class="nav__logo">Ajaib Sekuritas</a>
+    <a href="#contact-section" class="nav__button">Komplain via Medsos</a>
+  </nav>
+
+  <div class="container">
+    <!-- Hero Section -->
+    <header id="beranda" class="hero-section">
+      <img src="https://i.ibb.co.com/hRLRWqfd/logo-ajaib.png" alt="Logo Ajaib Sekuritas" class="hero-logo">
+      <h1>Cara Komplain ke Ajaib via Media Sosial</h1>
+      <p>Sampaikan keluhan atau masukan Anda melalui media sosial resmi Ajaib. Ikuti panduan berikut agar keluhan Anda cepat ditanggapi. Untuk masalah mendesak, tetap gunakan Call Center atau WhatsApp di <strong>0851-2222-2210</strong>.</p>
+    </header>
+
+    <!-- Panduan Komplain -->
+    <section class="benefits-section">
+      <h2><span class="section-title">Panduan Komplain via Media Sosial</span></h2>
+      <div class="benefits-container">
+        <div class="benefits">
+          <div class="benefit-card">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+            </svg>
+            <h3>Twitter (X) – @Ajaib</h3>
+            <p>Tweet keluhan Anda dengan mention @Ajaib. Sertakan screenshot dan detail kronologi. Jangan lupa gunakan hashtag #KeluhanAjaib jika perlu. Pantau balasan dari tim media sosial.</p>
+          </div>
+          <div class="benefit-card">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect>
+              <line x1="2" y1="9" x2="22" y2="9"></line>
+              <line x1="2" y1="15" x2="22" y2="15"></line>
+              <line x1="9" y1="2" x2="9" y2="22"></line>
+              <line x1="15" y1="2" x2="15" y2="22"></line>
+            </svg>
+            <h3>Instagram – @ajaib</h3>
+            <p>Kirim pesan langsung (DM) ke akun resmi @ajaib. Sertakan deskripsi keluhan, bukti screenshot, dan nomor akun Anda. Periksa notifikasi karena biasanya mereka membalas dalam 1x24 jam.</p>
+          </div>
+          <div class="benefit-card">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+            <h3>Facebook – Ajaib</h3>
+            <p>Komplain melalui fanpage Facebook Ajaib. Anda bisa posting di dinding atau kirim pesan. Sertakan informasi yang jelas dan jangan lupa untuk menjaga privasi data pribadi.</p>
+          </div>
+          <div class="benefit-card">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+            <h3>LinkedIn – Ajaib</h3>
+            <p>Untuk keluhan bersifat profesional atau terkait layanan korporasi, Anda bisa mengirim pesan melalui LinkedIn. Namun untuk keluhan umum, gunakan Twitter atau Instagram.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tips Komplain Efektif -->
+    <section class="benefits-section">
+      <h2><span class="section-title">Tips Agar Komplain Cepat Ditanggapi</span></h2>
+      <div class="benefits-container">
+        <div class="benefits">
+          <div class="benefit-card">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <h4>Sertakan Bukti</h4>
+            <p>Lampirkan screenshot, nomor tiket, ID transaksi, atau bukti lainnya agar tim bisa memverifikasi.</p>
+          </div>
+          <div class="benefit-card">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+            <h4>Jelaskan dengan Jelas</h4>
+            <p>Kronologi singkat, apa yang terjadi, kapan, dan apa yang Anda harapkan sebagai solusi.</p>
+          </div>
+          <div class="benefit-card">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20 12.5A7.5 7.5 0 0 1 8 15M12 2v4m-8 4h20M4 10a8 8 0 0 1 16 0v6a8 8 0 0 1-16 0v-6z"/>
+            </svg>
+            <h4>Hindari Emosi Berlebihan</h4>
+            <p>Komplain dengan sopan akan lebih cepat diproses. Tim media sosial akan merespon lebih baik.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak Darurat -->
+    <section id="contact-section" class="contact-section">
+      <h2><span class="section-title">Untuk Keluhan Mendesak</span></h2>
+      <p class="section-description">Jika keluhan Anda membutuhkan penanganan segera, gunakan saluran resmi 24 jam berikut</p>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          <h3>Call Center 24 Jam</h3>
+          <a href="tel:0851-2222-2210" target="_blank" rel="noopener noreferrer" style="text-decoration:none;"><p class="contact-number">0851-2222-2210</p></a>
+        </div>
+        <div class="contact-card">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+          </svg>
+          <h3>WhatsApp 24 Jam</h3>
+          <a href="https://wa.me/6285122222210" target="_blank" rel="noopener noreferrer" style="text-decoration:none;"><p class="contact-number">0851-2222-2210</p></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq-section" class="faq-section">
+      <h2><span class="section-title">Pertanyaan Umum Komplain via Medsos</span></h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question">Apakah komplain via media sosial lebih cepat daripada call center?</div>
+          <div class="faq-answer">Tidak selalu. Untuk masalah mendesak (seperti transaksi gagal atau akun terblokir), call center atau WhatsApp lebih cepat. Media sosial lebih cocok untuk keluhan umum atau masukan.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Berapa lama respon untuk komplain via Twitter atau Instagram?</div>
+          <div class="faq-answer">Biasanya dalam 1x24 jam pada jam kerja. Di luar jam kerja atau akhir pekan mungkin lebih lambat.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Apakah semua akun media sosial Ajaib resmi?</div>
+          <div class="faq-answer">Pastikan Anda berinteraksi dengan akun yang memiliki centang biru (verified) dan nama resmi: @Ajaib (Twitter), @ajaib (Instagram), dan Facebook Ajaib dengan tanda centang.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Data apa yang harus saya sertakan saat komplain via DM Instagram?</div>
+          <div class="faq-answer">Sertakan nomor akun Ajaib, email terdaftar, screenshot kendala, dan penjelasan singkat. Jangan berikan password atau OTP.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta-section" class="cta-section" role="complementary">
+      <h3>Butuh Bantuan Langsung?</h3>
+      <p>Hubungi Customer Service Ajaib melalui call center atau WhatsApp untuk penanganan cepat.</p>
+      <div class="cta-contact-info">
+        <div class="contact-buttons">
+          <a href="tel:0851-2222-2210" class="contact-button phone-button">
+            <span class="button-icon">📞</span>
+            <span class="button-text">Call Center 0851-2222-2210</span>
+          </a>
+          <a href="https://wa.me/6285122222210" class="contact-button whatsapp-button">
+            <span class="button-icon">💬</span>
+            <span class="button-text">WhatsApp 0851-2222-2210</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h4>Ajaib Sekuritas</h4>
+        <p>Platform investasi online resmi berizin OJK. Siap membantu keluhan Anda melalui berbagai saluran.</p>
+      </div>
+      <div class="footer-column">
+        <h4>Informasi Kontak</h4>
+        <ul>
+          <li>📞 Call Center: 0851-2222-2210</li>
+          <li>💬 WhatsApp: 0851-2222-2210</li>
+          <li>✉️ Email: support@ajaib.co.id</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Media Sosial Resmi</h4>
+        <ul>
+          <li>🐦 Twitter: @Ajaib</li>
+          <li>📷 Instagram: @ajaib</li>
+          <li>📘 Facebook: Ajaib</li>
+        </ul>
+      </div>
+    </div>
+    <hr class="footer-divider" />
+    <div class="footer-bottom">
+      <p>© 2025 PT Ajaib Teknologi Indonesia (Ajaib Sekuritas). Hak cipta dilindungi.</p>
+      <p>Informasi ini dapat berubah sewaktu-waktu.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll for navigation
+    document.querySelector('.nav__button').addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector('#contact-section').scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+
+    // FAQ Accordion
+    document.querySelectorAll('.faq-question').forEach(question => {
+      question.addEventListener('click', () => {
+        const answer = question.nextElementSibling;
+        const isActive = question.classList.contains('active');
+        
+        // Close all other answers
+        document.querySelectorAll('.faq-question').forEach(q => {
+          q.classList.remove('active');
+          q.nextElementSibling.classList.remove('active');
+        });
+
+        // Toggle current answer
+        if (!isActive) {
+          question.classList.add('active');
+          answer.classList.add('active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
